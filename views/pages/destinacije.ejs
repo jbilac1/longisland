@@ -1,0 +1,19 @@
+<%- layout('./layouts/boilerplate') %>
+<div class="page-content">
+    <h1>Dugi Otok | Destinacije</h1>
+    <div class="content">
+        <% for( let destinacija of pageData.destinacije ) { %>
+            <div class="card" data-aos="fade-up">              
+                <div class="card-img">
+                    <img src="<%= destinacija.img %>" alt="<%= destinacija.title %>">     
+                </div>         
+                <div class="card-body">
+                    <h5 class="card-title"><%= destinacija.title %></h5>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <a href="#sakarun" class="btn">Više</a>
+                </div>           
+            </div>
+        <% } %>
+    </div>
+    
+</div>
