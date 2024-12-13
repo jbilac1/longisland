@@ -1,0 +1,18 @@
+<%- layout('./layouts/boilerplate') %>
+<div class="container py-5">
+    <h1 class="my-5">Dugi Otok | <%= category %></h1>
+    <div class="d-flex flex-column flex-md-row gap-4">
+        <% for( let item of pageData ) { %>
+            <a href="/show/<%=  item.id %>?cat=d"> 
+                <div class="card" data-aos="fade-up">              
+                    <div class="card-img">
+                        <img src="<%= item.img %>" class="img-fluid " alt="<%= item.title %>">     
+                    </div>   
+                    <div class="card-body text-center bg-success">
+                        <span class="card-title m-0 text-white fs-6" ><%= item.title %></span>
+                    </div> 
+                </div>
+            </a>
+        <% } %>
+    </div>
+</div>

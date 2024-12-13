@@ -1,18 +1,18 @@
 <% layout('layouts/boilerplate'); %>
-<div class="start-favourites">
-    <h2 class="text-center mb-2">Atraktivne <span>Destinacije</span></h2>
-    <div class="container favourites-content">
+<div class="py-5">
+    <h2 class="text-center mb-5">Atraktivne <span class="text-success">Destinacije</span></h2>
+    <div class="container d-flex flex-column flex-md-row gap-4">
         <% for( let destinacija of pageData.destinacije ) { %>
-            <div class="card" data-aos="fade-up">              
-                <div class="card-img">
-                    <img src="<%= destinacija.img %>" class="img-fluid " alt="<%= destinacija.title %>">     
-                </div>         
-                <div class="card-body">
-                    <h5 class="card-title"><%= destinacija.title %></h5>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    <a href="#sakarun" class="btn">Više</a>
-                </div>           
-            </div>
+            <a href="/show/<%= destinacija.id %>?cat=d"> 
+                <div class="card" data-aos="fade-up">              
+                    <div class="card-img">
+                        <img src="<%= destinacija.img %>" class="img-fluid " alt="<%= destinacija.title %>">     
+                    </div>   
+                    <div class="card-body text-center bg-success">
+                        <span class="card-title m-0 text-white fs-6" ><%= destinacija.title %></span>
+                    </div> 
+                </div>
+            </a>
         <% } %>
         
         
