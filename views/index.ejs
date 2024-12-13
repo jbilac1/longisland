@@ -1,12 +1,12 @@
 <% layout('layouts/boilerplate'); %>
-<div class="py-5">
+<div class="page">
     <h2 class="text-center mb-5">Atraktivne <span class="text-success">Destinacije</span></h2>
-    <div class="container d-flex flex-column flex-md-row gap-4">
+    <div class="container d-flex flex-wrap justify-content-center gap-4">
         <% for( let destinacija of pageData.destinacije ) { %>
-            <a href="/show/<%= destinacija.id %>?cat=d"> 
+            <a class="text-decoration-none" href="/show/<%= destinacija.id %>?cat=d"> 
                 <div class="card" data-aos="fade-up">              
                     <div class="card-img">
-                        <img src="<%= destinacija.img %>" class="img-fluid " alt="<%= destinacija.title %>">     
+                        <img src="<%= destinacija.imgsm %>" class="" alt="<%= destinacija.title %>">     
                     </div>   
                     <div class="card-body text-center bg-success">
                         <span class="card-title m-0 text-white fs-6" ><%= destinacija.title %></span>

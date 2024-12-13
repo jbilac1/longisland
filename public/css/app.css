@@ -21,6 +21,7 @@ body{
   width:100%;
   background-color: rgba(0, 0, 0, 0.9);
   z-index: 999;
+  padding: 20px 0;
 }
 
 .nav-link{
@@ -127,8 +128,15 @@ body{
 .header-content .btn:hover::before {
   left: 0;
 }
+.page{
+  min-height: calc(100vh - 200px);
+  padding: 100px 0;
+}
 
-
+.card-img img{
+  width: 250px;
+  height: 150px;
+}
 .show-content{
   display: flex;
   flex-direction: column;

@@ -20,18 +20,21 @@ const pageData = {
             id: 1,
             title: "sakarun",
             img: "./img/sakarun.jpg",
+            imgsm:"./img/sakarunsm.jpg",
             about: "The beach is particularly popular for windsurfing and kitesurfing due to its ideal wind conditions. Surrounded by pine trees that provide natural shade, Zlatni Rat offers a picturesque setting with crystal-clear turquoise waters. The beach gradually changes its shape, sometimes extending more to one side or the other, which makes it a fascinating geographical feature."
         },
         {
             id: 2,
             title: "veli rat",
             img: "./img/velirat.jpg",
+            imgsm:"./img/veliratsm.jpg",
             about: "Svjetionik Veli Rat je jedan od najprepoznatljivijih simbola Dugog otoka. Sa svojih 42 metra visine, on je najviši svjetionik na Jadranu i pravi magnet za turiste. Smješten na sjeverozapadnom dijelu otoka, ovaj impozantni svjetionik pruža spektakularne poglede na okolne otoke i beskrajno plavetnilo mora."
         },
         {
             id: 3,
             title: "telascica",
             img: "./img/telascica.jpg",
+            imgsm:"./img/telascicasm.jpg",
             about: "Park prirode Telašćica smješten je na jugoistočnom dijelu Dugog otoka i predstavlja jedno od najvećih prirodnih bogatstava Hrvatske. Ovaj zaštićeni krajolik oduševljava svojom ljepotom, raznolikošću i bogatstvom flore i faune."
         }
     ],
@@ -40,18 +43,21 @@ const pageData = {
             id: 4,
             title: "Grapašćak",
             img: "./img/grapascak.jpg",
+            imgsm:"./img/grapascaksm.jpg",
             about: "Fort Grapašćak je povijesna tvrđava smještena na otoku Dugom, iznad mjesta Sali. Ova impozantna građevina sagrađena je u 16."
         },
         {
             id: 5,
             title: "Golubinka",
             img: "./img/golubinka.jpg",
+            imgsm:"./img/golubinkasm.jpg",
             about: "Špilja Golubinka je jedna od najvećih prirodnih atrakcija Dugog otoka. Smještena u blizini uvale Brbinjšćica, ova špilja privlači sve veći broj turista i avanturista svake godine"
         },
         {
             id: 6,
             title: "telascica",
             img: "./img/telascica.jpg",
+            imgsm:"./img/telascicasm.jpg",
             about: "The beach is particularly popular for windsurfing and kitesurfing due to its ideal wind conditions. Surrounded by pine trees that provide natural shade, Zlatni Rat offers a picturesque setting with crystal-clear turquoise waters. The beach gradually changes its shape, sometimes extending more to one side or the other, which makes it a fascinating geographical feature."
         }
     ],
@@ -60,18 +66,21 @@ const pageData = {
             id: 7,
             title: "sakarun",
             img: "./img/sakarun.jpg",
+            imgsm:"./img/sakarunsm.jpg",
             about: "Želite li provesti dan na plaži, Sakarun je savršen izbor. Osim kupanja i sunčanja, možete uživati u brojnim aktivnostima poput ronjenja, jedrenja na dasci ili jednostavno šetnje uz obalu. U blizini plaže nalaze se restorani i barovi gdje možete osvježiti se i kušati lokalne specijalitete."
         },
         {
             id: 8,
             title: "veli zal",
             img: "./img/velizal.jpg",
+            imgsm:"./img/velizalsm.jpg",
             about: "Veli Žal, iako možda ne tako poznata kao neke druge plaže na Jadranu, predstavlja pravo osvježenje za one koji traže mirnije i manje gužve. Smještena na Dugom otoku, ova plaža nudi posebnu atmosferu i ljepote koje će vas očarati."
         },
         {
             id: 9,
             title: "soline",
             img: "./img/mandarino.jpg",
+            imgsm:"./img/mandarinosm.jpg",
             about: "Plaža Soline na Dugom otoku predstavlja pravo osvježenje za sve one koji traže mirnije i manje gužve od popularnih plaža poput Sakaruna. Smještena u uvali Solišćica, ova plaža nudi posebnu atmosferu i ljepote koje će vas očarati."
         }
     ]
@@ -86,11 +95,11 @@ app.get('/list', (req, res)=>{
     const cat = req.query.cat;
     switch(cat){
         case 'd':
-            res.render('pages/list', {category: "destinacije", headerOn: false, pageData: pageData.destinacije})      
+            res.render('pages/list', {category: "destinacije", headerOn: false, pageData: pageData.destinacije, cat})      
         case 'a':
-            res.render('pages/list', {category: "aktivnosti", headerOn: false, pageData: pageData.aktivnosti})
+            res.render('pages/list', {category: "aktivnosti", headerOn: false, pageData: pageData.aktivnosti, cat})
         case 'p':
-            res.render('pages/list', {category: "plaze", headerOn: false, pageData: pageData.plaze})       
+            res.render('pages/list', {category: "plaze", headerOn: false, pageData: pageData.plaze, cat})       
     }
 });
 
@@ -101,21 +110,23 @@ app.get('/show/:id', (req, res)=>{
         case 'd':
             for(let item of pageData.destinacije){
                 if(item.id == id){
-                    res.render('pages/show', {title: item.title, item: item, headerOn: false, returnUrl: "/destinacije", cat:cat})
+                    res.render('pages/show', {title: item.title, item: item, headerOn: false, returnUrl: "/destinacije", cat:'d'})
                 }
             }
         case 'a':
              for(let item of pageData.aktivnosti){
                 if(item.id == id){
-                    res.render('pages/show', {title: item.title, item: item, headerOn: false, returnUrl: "/aktivnosti", cat:cat})
+                    res.render('pages/show', {title: item.title, item: item, headerOn: false, returnUrl: "/aktivnosti", cat:'a'})
                 }
             }
         case 'p':
             for(let item of pageData.plaze){
                 if(item.id == id){
-                    res.render('pages/show', {title: item.title, item: item, headerOn: false, returnUrl: "/plaze", cat:cat})
+                    res.render('pages/show', {title: item.title, item: item, headerOn: false, returnUrl: "/plaze", cat:'p'})
                 }
             }
+        
+            
     }
 })
 
