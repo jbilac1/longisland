@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+html{
+  background: #1e1e1e;
+}
 body{
     font-family: "Rubik Mono One", monospace;
 }
@@ -19,7 +22,7 @@ body{
   left:0;
   top:0;
   width:100%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #1e1e1e;
   z-index: 999;
   padding: 20px 0;
 }
@@ -32,7 +35,7 @@ body{
 }
 .nav-link:hover, .nav-link:focus{
   color:white;
-  background: rgba(59, 110, 166, 0.5);
+  background: #198754;
   border-radius: 3px;
 }
 .menu-toggle {
@@ -103,7 +106,7 @@ body{
 }
 .header-content .btn{
   color: #fff;
-  background-color: #3A6EA5;
+  background-color: #198754;
     
 }
 .header-content .btn {
@@ -144,7 +147,7 @@ body{
   gap: 10px;
 }
 .show-img{
-  width: 100%;
+  width: 75%;
   height: auto;
 }
 .show-title{
@@ -159,11 +162,18 @@ body{
 }
 .btn-povratak{
   padding: 10px 20px;
-  border-radius: 10px;
-  background: #3A6EA5;
+  border: 1px solid #198754;
+  border-radius: 5px;
+  background: #198754;
   color: #f2f2f2;
   cursor: pointer;
   text-decoration: none;
+  text-align: center;
+}
+.btn-povratak:hover{
+  background: #fff;
+  border: 1px solid #198754;
+  color: #198754;
 }
 @media(max-width:992px){
   .nav-link{
@@ -185,6 +195,9 @@ body{
 }
 
 @media(max-width:600px){
+  .page{
+    padding: 100px 20px;
+  }
   .header-content h1{
     font-size: 28px; 
     
@@ -206,7 +219,17 @@ body{
   .show-paragraph{
     font-size: 12px;
   }
-  
+  .page a{
+    width: calc(100% - 20px);
+  }
+  .card-img img{
+    width: 100%;
+    height: auto;
+  }
+  .show-img{
+    width: 100%;
+    
+  }
   
 }
   

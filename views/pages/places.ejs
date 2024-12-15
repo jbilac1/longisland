@@ -1,9 +1,9 @@
 <%- layout('./layouts/boilerplate') %>
 <div class="container page">
-    <h1 class="text-center py-5">Dugi Otok | <%= category %></h1>
-    <div class="d-flex flex-wrap justify-content-center gap-4">
-        <% for( let item of pageData ) { %>
-            <a class="text-decoration-none" href="/show/<%=  item.id %>?cat=<%= cat %>"> 
+    <h1 class="text-center py-5">Dugi Otok | Mjesta</h1>
+    <div class="d-flex flex-wrap justify-content-center w-100 gap-4">
+        <% for( let item of pageData.mjesta ) { %>
+            <a class="text-decoration-none" href="/showPlace/<%=  item.id %>"> 
                 <div class="card" data-aos="fade-up">              
                     <div class="card-img">
                         <img src="<%= item.imgsm %>" class="" alt="<%= item.title %>">     

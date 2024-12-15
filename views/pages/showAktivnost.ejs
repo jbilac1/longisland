@@ -1,0 +1,11 @@
+<%- layout("./layouts/boilerplate")  %>
+<div class="container page">
+    <small class="py-5">aktivnosti > <%= aktivnost.title %></small>
+    <div class="show-content">
+        <img class="show-img" src=".<%= aktivnost.img  %>" alt="<%= aktivnost.title %>">
+        <span class="show-title"><%= aktivnost.title %></span>
+        <p class="show-paragraph"><%= aktivnost.about %></p>
+        <a class="btn-povratak" href="/aktivnosti">sve aktivnosti</a>
+    </div>
+    
+</div>
