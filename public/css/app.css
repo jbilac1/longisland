@@ -175,6 +175,12 @@ body{
   border: 1px solid #198754;
   color: #198754;
 }
+.acard{
+  transition: all 0.3s ease-in-out;
+}
+.acard:hover{
+  transform: rotate(-2deg);
+}
 @media(max-width:992px){
   .nav-link{
     text-align: center;
