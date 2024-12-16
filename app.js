@@ -25,7 +25,7 @@ const pageData = {
         },
         {
             id: 2,
-            title: "Verunic",
+            title: "Verunić",
             img: "./img/verunic.jpg",
             imgsm:"./img/verunic.jpg",
             about: "Svjetionik Veli Rat je jedan od najprepoznatljivijih simbola Dugog otoka. Sa svojih 42 metra visine, on je najviši svjetionik na Jadranu i pravi magnet za turiste. Smješten na sjeverozapadnom dijelu otoka, ovaj impozantni svjetionik pruža spektakularne poglede na okolne otoke i beskrajno plavetnilo mora."
@@ -111,7 +111,7 @@ const pageData = {
         },
         {
             id: 14,
-            title: "Telascica",
+            title: "Telašćica",
             img: "./img/telascica.jpg",
             imgsm:"./img/telascicasm.jpg",
             about: "The beach is particularly popular for windsurfing and kitesurfing due to its ideal wind conditions. Surrounded by pine trees that provide natural shade, Zlatni Rat offers a picturesque setting with crystal-clear turquoise waters. The beach gradually changes its shape, sometimes extending more to one side or the other, which makes it a fascinating geographical feature."
@@ -127,14 +127,14 @@ const pageData = {
         },
         {
             id: 16,
-            title: "veli zal",
+            title: "Veli Žal",
             img: "./img/velizal.jpg",
             imgsm:"./img/velizalsm.jpg",
             about: "Veli Žal, iako možda ne tako poznata kao neke druge plaže na Jadranu, predstavlja pravo osvježenje za one koji traže mirnije i manje gužve. Smještena na Dugom otoku, ova plaža nudi posebnu atmosferu i ljepote koje će vas očarati."
         },
         {
             id: 17,
-            title: "soline",
+            title: "Soline",
             img: "./img/mandarino.jpg",
             imgsm:"./img/mandarinosm.jpg",
             about: "Plaža Soline na Dugom otoku predstavlja pravo osvježenje za sve one koji traže mirnije i manje gužve od popularnih plaža poput Sakaruna. Smještena u uvali Solišćica, ova plaža nudi posebnu atmosferu i ljepote koje će vas očarati."

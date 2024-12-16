@@ -107,6 +107,7 @@ body{
 .header-content .btn{
   color: #fff;
   background-color: #198754;
+  text-transform: uppercase;
     
 }
 .header-content .btn {
@@ -135,7 +136,13 @@ body{
   min-height: calc(100vh - 200px);
   padding: 100px 0;
 }
-
+.page span{
+  color: #198754;
+}
+.card-title{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 .card-img img{
   width: 250px;
   height: 150px;
@@ -161,7 +168,9 @@ body{
   
 }
 .btn-povratak{
+  
   padding: 10px 20px;
+  
   border: 1px solid #198754;
   border-radius: 5px;
   background: #198754;
@@ -169,6 +178,8 @@ body{
   cursor: pointer;
   text-decoration: none;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 .btn-povratak:hover{
   background: #fff;
@@ -235,6 +246,9 @@ body{
   .show-img{
     width: 100%;
     
+  }
+  .page a{
+    width: 100%;
   }
   
 }

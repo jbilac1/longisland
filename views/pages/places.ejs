@@ -1,6 +1,6 @@
 <%- layout('./layouts/boilerplate') %>
 <div class="container page">
-    <h1 class="text-center py-5">Dugi Otok | Mjesta</h1>
+    <h1 class="text-center py-5">Dugi Otok | <span>Mjesta</span></h1>
     <div class="d-flex flex-wrap justify-content-center w-100 gap-4">
         <% for( let item of pageData.mjesta ) { %>
             <a class="text-decoration-none acard" href="/showPlace/<%=  item.id %>"> 
