@@ -103,6 +103,7 @@ body{
   background-color: rgba(0, 0, 0, 0.4);
   padding: 1rem 0;
   width:100%;
+  
 }
 .header-content .btn{
   color: #fff;
@@ -154,7 +155,7 @@ body{
   gap: 10px;
 }
 .show-img{
-  width: 75%;
+  width: 100%;
   height: auto;
 }
 .show-title{

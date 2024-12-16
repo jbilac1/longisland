@@ -21,77 +21,77 @@ const pageData = {
             title: "Veli Rat",
             img: "./img/velirat.jpg",
             imgsm:"./img/velirat.jpg",
-            about: "The beach is particularly popular for windsurfing and kitesurfing due to its ideal wind conditions. Surrounded by pine trees that provide natural shade, Zlatni Rat offers a picturesque setting with crystal-clear turquoise waters. The beach gradually changes its shape, sometimes extending more to one side or the other, which makes it a fascinating geographical feature."
+            about: "Veli Rat je živopisno mjesto smješteno na sjeverozapadnom dijelu Dugog otoka, u uvali Čuna koju uski kanal spaja sa zaljevom Pantera. Ovo mjesto, s bogatom poviješću koja seže u rimsko doba, danas je popularna turistička destinacija, poznata po svom mirnom ambijentu, prekrasnim plažama i svjetski poznatom svjetioniku."
         },
         {
             id: 2,
             title: "Verunić",
             img: "./img/verunic.jpg",
             imgsm:"./img/verunic.jpg",
-            about: "Svjetionik Veli Rat je jedan od najprepoznatljivijih simbola Dugog otoka. Sa svojih 42 metra visine, on je najviši svjetionik na Jadranu i pravi magnet za turiste. Smješten na sjeverozapadnom dijelu otoka, ovaj impozantni svjetionik pruža spektakularne poglede na okolne otoke i beskrajno plavetnilo mora."
+            about: "Verunić, smješten u uvali Čuna na sjeverozapadnom dijelu Dugog otoka, predstavlja oazu mira i spokoja. Ovo malo mjesto, često zvano Verona, nudi jedinstven spoj povijesti, prirode i gastronomije."
         },
         {
             id: 3,
             title: "Soline",
             img: "./img/soline.jpg",
             imgsm:"./img/soline.jpg",
-            about: "Park prirode Telašćica smješten je na jugoistočnom dijelu Dugog otoka i predstavlja jedno od najvećih prirodnih bogatstava Hrvatske. Ovaj zaštićeni krajolik oduševljava svojom ljepotom, raznolikošću i bogatstvom flore i faune."
+            about: "Soline je malo, ali šarmantno mjesto smješteno na sjeverozapadnom dijelu Dugog otoka, u uvali Solišćica. Njegovo ime upućuje na dugu povijest proizvodnje soli, koja je nekada bila važan dio života ovog područja. Danas, Soline nude miran i opuštajući odmor, idealan za one koji traže bijeg od gradske vreve."
         },
         {
             id: 4,
             title: "Božava",
             img: "./img/bozava.jpg",
             imgsm:"./img/bozava.jpg",
-            about: "Svjetionik Veli Rat je jedan od najprepoznatljivijih simbola Dugog otoka. Sa svojih 42 metra visine, on je najviši svjetionik na Jadranu i pravi magnet za turiste. Smješten na sjeverozapadnom dijelu otoka, ovaj impozantni svjetionik pruža spektakularne poglede na okolne otoke i beskrajno plavetnilo mora."
+            about: "Božava je prekrasno mjesto smješteno na sjeverozapadnoj strani Dugog otoka, okruženo borovom šumom i kristalno čistim morem. Poznata je po svojoj mirnoj atmosferi, prekrasnim plažama i bogatoj povijesti."
         },
         {
             id: 5,
             title: "Dragove",
             img: "./img/dragove.jpg",
             imgsm:"./img/dragove.jpg",
-            about: "Park prirode Telašćica smješten je na jugoistočnom dijelu Dugog otoka i predstavlja jedno od najvećih prirodnih bogatstava Hrvatske. Ovaj zaštićeni krajolik oduševljava svojom ljepotom, raznolikošću i bogatstvom flore i faune."
+            about: "Dragove - Skriveni raj na Dugom otoku. Dragove je malo, mirno mjesto smješteno na sjeverozapadnom dijelu Dugog otoka, poznato po svojoj prekrasnoj plaži Veli žal koja se često naziva Hrvatskim Maldivima. Ovo mjesto je idealno za one koji traže miran odmor u okruženju netaknute prirode."
         },
         {
             id: 6,
             title: "Brbinj",
             img: "./img/brbinj.jpg",
             imgsm:"./img/brbinj.jpg",
-            about: "Svjetionik Veli Rat je jedan od najprepoznatljivijih simbola Dugog otoka. Sa svojih 42 metra visine, on je najviši svjetionik na Jadranu i pravi magnet za turiste. Smješten na sjeverozapadnom dijelu otoka, ovaj impozantni svjetionik pruža spektakularne poglede na okolne otoke i beskrajno plavetnilo mora."
+            about: "Brbinj je živahno mjesto smješteno na sjeveroistočnoj obali Dugog otoka. Kao jedno od većih naselja na otoku,"
         },
         {
             id: 7,
             title: "Savar",
             img: "./img/savar.jpg",
             imgsm:"./img/savar.jpg",
-            about: "Park prirode Telašćica smješten je na jugoistočnom dijelu Dugog otoka i predstavlja jedno od najvećih prirodnih bogatstava Hrvatske. Ovaj zaštićeni krajolik oduševljava svojom ljepotom, raznolikošću i bogatstvom flore i faune."
+            about: "Savar je malo, šarmantno mjesto smješteno u središnjem dijelu Dugog otoka. Poznato je po svojoj mirnoj atmosferi, prekrasnim plažama i bogatoj povijesti. Za razliku od nekih turistički razvijenijih mjesta na otoku, Savar je zadržao svoj autentični šarm i privlači posjetitelje koji traže miran odmor u okruženju netaknute prirode."
         },
         {
             id: 8,
             title: "Luka",
             img: "./img/luka.jpg",
             imgsm:"./img/luka.jpg",
-            about: "Svjetionik Veli Rat je jedan od najprepoznatljivijih simbola Dugog otoka. Sa svojih 42 metra visine, on je najviši svjetionik na Jadranu i pravi magnet za turiste. Smješten na sjeverozapadnom dijelu otoka, ovaj impozantni svjetionik pruža spektakularne poglede na okolne otoke i beskrajno plavetnilo mora."
+            about: "Luka je prekrasno mjesto smješteno u središnjem dijelu Dugog otoka, poznato po svojoj mirnoj atmosferi, kristalno čistom moru i bogatoj povijesti. Za razliku od nekih turistički razvijenijih mjesta na otoku,"
         },
         {
             id: 9,
             title: "Žman",
             img: "./img/zman.jpg",
             imgsm:"./img/zman.jpg",
-            about: "Park prirode Telašćica smješten je na jugoistočnom dijelu Dugog otoka i predstavlja jedno od najvećih prirodnih bogatstava Hrvatske. Ovaj zaštićeni krajolik oduševljava svojom ljepotom, raznolikošću i bogatstvom flore i faune."
+            about: "Žman je malo, tradicionalno dalmatinsko mjesto smješteno na sjeverozapadnom dijelu Dugog otoka. Poznato je po svojoj mirnoj atmosferi, prekrasnim plažama i bogatoj povijesti. Za razliku od nekih turistički razvijenijih mjesta na otoku, Žman je zadržao svoj autentični šarm i privlači posjetitelje koji traže miran odmor u okruženju netaknute prirode."
         },
         {
             id: 10,
             title: "Zaglav",
             img: "./img/zaglav.jpg",
             imgsm:"./img/zaglav.jpg",
-            about: "Svjetionik Veli Rat je jedan od najprepoznatljivijih simbola Dugog otoka. Sa svojih 42 metra visine, on je najviši svjetionik na Jadranu i pravi magnet za turiste. Smješten na sjeverozapadnom dijelu otoka, ovaj impozantni svjetionik pruža spektakularne poglede na okolne otoke i beskrajno plavetnilo mora."
+            about: "Zaglav je malo, mirno mjesto smješteno na sjevernoj strani Dugog otoka, poznato po svojim prekrasnim plažama i kristalno čistom moru. Za razliku od živahnijeg Salija, Zaglav nudi opušteniji odmor u okruženju netaknute prirode."
         },
         {
             id: 11,
             title: "Sali",
             img: "./img/sali.jpg",
             imgsm:"./img/sali.jpg",
-            about: "Park prirode Telašćica smješten je na jugoistočnom dijelu Dugog otoka i predstavlja jedno od najvećih prirodnih bogatstava Hrvatske. Ovaj zaštićeni krajolik oduševljava svojom ljepotom, raznolikošću i bogatstvom flore i faune."
+            about: "Sali je najveće mjesto na Dugom otoku i njegovo administrativno središte. Smješteno na sjeveroistočnoj obali otoka, Sali je omiljeno odredište za brojne turiste koji žele upoznati ljepote Dugog otoka i njegove okolice."
         }
     ],
     aktivnosti: [
@@ -100,7 +100,7 @@ const pageData = {
             title: "Grapašćak",
             img: "./img/grapascak.jpg",
             imgsm:"./img/grapascaksm.jpg",
-            about: "Fort Grapašćak je povijesna tvrđava smještena na otoku Dugom, iznad mjesta Sali. Ova impozantna građevina sagrađena je u 16."
+            about: "Fort Grapašćak je povijesna tvrđava smještena na otoku Dugom, iznad mjesta Sali. Ova impozantna građevina sagrađena je u 16. Edukativni Centar nudi interaktivne izložbe, edukativne programe i panoramske terase, koje omogućuju posjetiteljima da na zanimljiv način istraže prirodne ljepote ovog područja."
         },
         {
             id: 13,
@@ -114,13 +114,13 @@ const pageData = {
             title: "Telašćica",
             img: "./img/telascica.jpg",
             imgsm:"./img/telascicasm.jpg",
-            about: "The beach is particularly popular for windsurfing and kitesurfing due to its ideal wind conditions. Surrounded by pine trees that provide natural shade, Zlatni Rat offers a picturesque setting with crystal-clear turquoise waters. The beach gradually changes its shape, sometimes extending more to one side or the other, which makes it a fascinating geographical feature."
+            about: "Park prirode Telašćica je jedno od najljepših i najočuvanijih područja hrvatskog Jadrana. Smješten na jugoistočnom dijelu Dugog otoka, ovaj park oduševljava svojom raznolikošću: od strmih klisura i uvala s tirkiznim morem do slanog jezera i bogatog biljnog i životinjskog svijeta."
         }
     ],
     plaze: [
         {
             id: 15,
-            title: "sakarun",
+            title: "Sakarun",
             img: "./img/sakarun.jpg",
             imgsm:"./img/sakarunsm.jpg",
             about: "Želite li provesti dan na plaži, Sakarun je savršen izbor. Osim kupanja i sunčanja, možete uživati u brojnim aktivnostima poput ronjenja, jedrenja na dasci ili jednostavno šetnje uz obalu. U blizini plaže nalaze se restorani i barovi gdje možete osvježiti se i kušati lokalne specijalitete."
@@ -134,10 +134,10 @@ const pageData = {
         },
         {
             id: 17,
-            title: "Soline",
+            title: "Kamp Mandarino",
             img: "./img/mandarino.jpg",
             imgsm:"./img/mandarinosm.jpg",
-            about: "Plaža Soline na Dugom otoku predstavlja pravo osvježenje za sve one koji traže mirnije i manje gužve od popularnih plaža poput Sakaruna. Smještena u uvali Solišćica, ova plaža nudi posebnu atmosferu i ljepote koje će vas očarati."
+            about: "Kamp Mandarino na Dugom otoku predstavlja pravo osvježenje za sve one koji traže mirnije i manje gužve od popularnih plaža poput Sakaruna. Smještena u uvali Solišćica, ova plaža nudi posebnu atmosferu i ljepote koje će vas očarati."
         }
     ]
 }
